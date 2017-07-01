@@ -27,7 +27,8 @@
             cardphone.innerHTML =phone_val; // added this
             card.appendChild(cardphone);
 
-            document.createElement('br');
+            var brea = document.createElement('br');
+            card.appendChild(brea);
 
         });
     }, function (error) {

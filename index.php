@@ -5,11 +5,12 @@
     <title>FireBase test</title>
 </head>
 <body>
-
+<h1>ENTER DATA</h1>
+<br>
 <form action="welcome.php" method="post">
 
     Name: <input type="text" name="name"><br>
-    E-mail: <input type="email" name="email"><br>
+    Email: <input type="email" name="email"><br>
     Phone: <input type="number" name="phone"><br>
     <input type="submit">
 </form>
